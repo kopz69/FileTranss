@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+        <Button
+            android:textColor="@color/White"
+            android:id="@+id/fileBtn"
+            android:background="@drawable/check_border"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="36dp"
+            android:text="选择文件"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="148dp" />
+
+        <Button
+            android:textColor="@color/White"
+            android:id="@+id/scanBtn"
+            android:background="@drawable/check_border"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="50dp"
+            android:text="扫描设备"
+            app:layout_constraintStart_toStartOf="@+id/fileBtn"
+            app:layout_constraintTop_toBottomOf="@+id/fileBtn" />
+
+        <Button
+            android:textColor="@color/White"
+            android:id="@+id/startSendBtn"
+            android:background="@drawable/check_border"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="50dp"
+            android:text="开始发送"
+            app:layout_constraintStart_toStartOf="@+id/scanBtn"
+            app:layout_constraintTop_toBottomOf="@+id/scanBtn" />
+
+
+</LinearLayout>

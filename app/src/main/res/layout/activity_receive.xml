@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chro"
+    android:layout_width="360dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="447dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="扫我传文件"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="132dp" />
+
+        <ImageView
+            android:id="@+id/iv_QR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            tools:layout_editor_absoluteX="192dp"
+            tools:layout_editor_absoluteY="335dp" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
